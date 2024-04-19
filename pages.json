@@ -1,0 +1,132 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/history/history",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "历史查询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/demo/demo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "疾病库",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "疾病详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail0/detail0",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Onedetail",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/registe4/registe4",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "registe",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/healthy/healthy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "healthy",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/speak/speak",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "论坛",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gpt/gpt",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "极真出品",
+		"navigationBarBackgroundColor": "#82d7fa",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#666",
+		"selectedColor": "#1296db",
+		"list": [
+			{"text": "首页",
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/首页.png",
+			"selectedIconPath": "static/image/首页 (1).png"
+			},
+			{"text": "疾病库",
+			"pagePath": "pages/demo/demo",
+			"iconPath": "static/image/数据库.png",
+			"selectedIconPath": "static/image/数据库 (1).png"
+			},
+			{"text": "历史",
+			"pagePath": "pages/history/history",
+			"iconPath": "static/image/历史.png",
+			"selectedIconPath": "static/image/历史 (1).png"
+			},
+			{
+			"text": "论坛",
+			"pagePath": "pages/speak/speak",
+			"iconPath": "static/image/icon_论坛-线.png",
+			"selectedIconPath": "static/image/icon_论坛-线 (1).png"
+			}
+			,
+			{"text": "我的",
+			"pagePath": "pages/user/user",
+			"iconPath": "static/image/用户-圆.png",
+			"selectedIconPath": "static/image/用户-圆 (1).png"
+			}
+		]
+	}
+}

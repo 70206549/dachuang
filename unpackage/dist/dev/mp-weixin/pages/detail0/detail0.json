@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Onedetail",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "onedetail": "/components/Onedetail/Onedetail"
+  }
+}

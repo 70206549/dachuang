@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "历史查询",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "content3": "/components/content3/content3"
+  }
+}

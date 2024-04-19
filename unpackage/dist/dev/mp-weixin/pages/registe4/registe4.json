@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "registe",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "registe": "/components/registe/registe"
+  }
+}

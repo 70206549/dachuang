@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "疾病详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "alldetail": "/components/Alldetail/Alldetail"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "疾病库",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "content3": "/components/content3/content3"
+  }
+}
